@@ -1,0 +1,7 @@
+services:
+  openwebui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: opendiddy-openwebui-1
+    ports:
+      - "3000:8080"
+    restart: unless-stopped
